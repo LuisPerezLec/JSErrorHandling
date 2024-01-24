@@ -1,0 +1,6 @@
+Existen 2 tipos de errores:
+Operational errors (ocurren en el tiempo de ejecución) y Programmer errors (errores en el código)
+
+The built-in object Error help us to set info about an error when it happens
+const error = new Error("An error message")
+console.log(error.stack)
