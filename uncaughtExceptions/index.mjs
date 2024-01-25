@@ -1,3 +1,6 @@
+/*Lanzar errores (convirtiendolos en excepciones), es la forma más común de manejar errores en node.js
+para codigo síncrono.*/
+
 /*La idea de este código, es atrapar el baseError a nivel de proceso con la función
 process.on('uncaughtException'), sin embargo, no creo que esté funcionando como lo esperaba puesto que
 en la consola no aparece la línea "Y el programa sigue", pero sí aparece la lína, "Exito, es operacional"
