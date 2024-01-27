@@ -11,7 +11,7 @@ const Api404Error = require('./api404Error')
 
 //1.Custom errors to handle operational errors
 const user = /* await User.getUserById(req.params.id) */ null
-/* if (user === null) {
+ if (user === null) {
  throw new Api404Error(`User with id: ID not found.`)
-}  */
+}
 

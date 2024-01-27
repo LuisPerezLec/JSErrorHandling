@@ -1,4 +1,4 @@
-/*En código asíncrono, existen 2 formas principales de manejar los errores, la primera, mostrada en este
+/*En código asíncrono, existen varias formas de manejar los errores, la primera, mostrada en este
 archivo, es utilizar una estructura async await, con lo que conseguimos que código asíncrono se desempeñe
 como código síncrono, y con un try catch manejamos el error.
 */
